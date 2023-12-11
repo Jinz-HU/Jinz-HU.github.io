@@ -1,6 +1,6 @@
 # Site settings
-title: Jinz Blog
-SEOTitle: Jinz博客 | Jinz Blog
+title: Jinz‘s Blog
+SEOTitle: Jinz's 博客 | Jinz's Blog
 header-img: img/post-bg-desk.jpg
 email: 暂无
 description: "写一句你想写的话"
@@ -62,8 +62,8 @@ gitalk:
   enable: true    #是否开启Gitalk评论
   clientID:                             #生成的clientID
   clientSecret:     #生成的clientSecret
-  repo: name.github.io    #仓库名称
-  owner:     #github用户名
+  repo: Jinz-HU.github.io    #仓库名称
+  owner: Jinz-HU    #github用户名
   admin: 
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
