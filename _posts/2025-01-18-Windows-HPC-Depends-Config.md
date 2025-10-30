@@ -68,7 +68,7 @@ int main()
       建议直接安装到C盘下面
 
 ## 2. Visual Studio 配置
-- 进入**配置属性—> VC++**目录输入下面部分
+- 进入 **配置属性—> VC++** 目录输入下面部分
 ```
 可执行文件目录：
 C:\Program Files (x86)\Intel\oneAPI\mkl\latest\bin\intel64
