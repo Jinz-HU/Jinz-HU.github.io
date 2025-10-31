@@ -54,7 +54,7 @@ tags:
 
 ## CUDA 异构计算中向量加法（vecAdd）的主机端代码流程
 
-```
+```c++
 #include <cuda.h>
 void vecAdd(float* h_A, float* h_B, float* h_C, int n)
 {
@@ -95,7 +95,7 @@ cudaMemcpyHostToDevice：从主机内存复制到设备内存。
 cudaMemcpyDeviceToHost：从设备内存复制到主机内存。
 cudaMemcpyDeviceToDevice：在设备内存内部复制。
 
-```
+```c++
 float* h_A = (float*)malloc(n * sizeof(float)); // 主机内存分配
 float* d_A;
 cudaMalloc(&d_A, n * sizeof(float));
@@ -168,7 +168,7 @@ GPU 并行计算：CPU 调用vecAddKernel内核，GPU 启动大量线程并行�
 
 
 **CUDA 并行计算矩阵乘法**
-```
+```c++
 __global__ void MatrixMulKernel(int m, int n, int k, float* A, float* B, float* C)
 {
     int Row = blockIdx.y * blockDim.y + threadIdx.y;
