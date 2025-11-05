@@ -161,7 +161,7 @@ void sequential_scan(int* input, int* output, int n) {
 
 ![](https://raw.githubusercontent.com/Jinz-HU/picRep/main/img/20251103231418.png)
 
-### Interleaved Reduction Trees（交错归约树
+### Interleaved Reduction Trees（交错归约树）
 
 **数据加载：全局内存 → 共享内存**
 
