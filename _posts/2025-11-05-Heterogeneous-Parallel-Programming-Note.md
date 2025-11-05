@@ -400,4 +400,3 @@ int main() {
 }
 ```
 
-**<span style="color:red;">一个线程的操作完成前，另一个线程无法介入</span>**
