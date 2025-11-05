@@ -99,8 +99,21 @@
   white-space: nowrap;
   text-overflow: ellipsis;
 }
-.side-catalog .catalog-body .h1_nav,
-.side-catalog .catalog-body .h2_nav,
+/* h1 标题 - 最大 */
+.side-catalog .catalog-body .h1_nav {
+  margin-left: 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* h2 标题 - 中等 */
+.side-catalog .catalog-body .h2_nav {
+  margin-left: 0;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* h3 标题 - 较小 */
 .side-catalog .catalog-body .h3_nav {
   margin-left: 0;
   font-size: 13px;
@@ -411,10 +424,22 @@ pre code {
 }
 .navbar-custom .nav li a {
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 20px;
   font-weight: 800;
   letter-spacing: 1px;
+}
+/* 二级下拉菜单样式 */
+.navbar-custom .nav li.dropdown .dropdown-menu>li>a {
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: none;
+  letter-spacing: 0.5px;
+}
+/* 次要菜单项样式 */
+.navbar-custom .nav li a.secondary {
+  font-size: 11px;
+  font-weight: 400;
 }
 .navbar-custom .nav li a:active {
   background: rgba(0, 0, 0, 0.12);
